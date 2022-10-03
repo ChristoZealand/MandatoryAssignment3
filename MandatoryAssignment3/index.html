@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>String duplication</title>
+  <script src="https://unpkg.com/vue@next"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+  <h1>String duplication</h1>
+  <div id="app">
+    <div>
+      <p>Message</p>
+      <input class="input1" v-model="message" type="text" placeholder="Write a message" id="wordInput" />
+      <p class="q1">How many</p>
+      <input class="input2" v-model="quantity" type="number" />
+      <button class="btn btn-primary Buttons" v-on:click="duplicate" id="duplicateButton">Do it</button>
+    </div>
+    <span  class="output" v-for="n in quantity" id="duplicate">{{output}}</span>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

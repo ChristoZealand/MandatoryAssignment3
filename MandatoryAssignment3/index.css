@@ -1,0 +1,25 @@
+.input1{
+    position: relative;
+    margin-left: 68px;
+    bottom: 41px;
+}
+.Buttons{
+    position: relative;
+    bottom: 114px;
+}
+
+.q1{
+    position: relative;
+    margin-left: 260px;
+    bottom: 69px;
+}
+
+.input2{
+    position: relative;
+    margin-left: 340px;
+    bottom: 113px;
+}
+.output{
+    position: relative;
+    bottom: 115px;
+}
